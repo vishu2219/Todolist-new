@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Todolist.taskadd">
+    <StackLayout>
+        <Label Text="Name" />
+        <Entry Text="{Binding task2}" />
+        <Button Text="Save"
+                Clicked="OnSaveClicked" Style="{StaticResource buttonStyle}"/>
+        <Button Text="Delete"
+                Clicked="OnDeleteClicked" Style="{StaticResource buttonStyle}"/>
+        <Button Text="Cancel"
+                Clicked="OnCancelClicked" Style="{StaticResource buttonStyle}"/>
+    </StackLayout>
+
+</ContentPage>
